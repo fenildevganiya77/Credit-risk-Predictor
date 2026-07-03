@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("model.pkl")
+model = joblib.load("model/model.pkl")
 
 st.set_page_config(
     page_title="Credit Risk Predictor",
